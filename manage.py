@@ -19,7 +19,7 @@ db=SQLAlchemy(app)
 
 @app.route('/')
 def index():
-	return 'index222'
+	return 'index'
 
 
 if __name__ == '__main__':
